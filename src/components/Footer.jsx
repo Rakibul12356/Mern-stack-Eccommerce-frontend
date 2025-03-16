@@ -52,6 +52,9 @@ const Footer = () => {
         </div>
 
       </footer>
+      <div className='footer__bar'>
+      Copyright © 2025 web Design Mastery. All rights reserved.  
+      </div>
     </>
   )
 }
