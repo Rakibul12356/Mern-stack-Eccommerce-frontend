@@ -2,11 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import RatingStars from '../../components/RatingStars';
 
+// eslint-disable-next-line react/prop-types
 const ProductsCard = ({ products }) => {
-    console.log(products)
+    
     return (
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8'>
             {
+                // eslint-disable-next-line react/prop-types
                 products.map((product, index) => (
                     <div key={index} className='product__card mt-12'>
                         <div className='relative'>
