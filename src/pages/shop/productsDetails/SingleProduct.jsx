@@ -42,6 +42,10 @@ const SingleProduct = () => {
                     </div>
                 </div>
             </section>
+            {/**display Reviews */}
+            <section className='section__container'>
+                Reviews Here
+            </section>
         </>
     );
 };
